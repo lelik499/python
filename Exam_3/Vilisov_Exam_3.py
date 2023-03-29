@@ -17,7 +17,7 @@
 #     s.change_age=(input('Введите возраст'))
 #
 # new_change()
-
+#
 
 # 2 Напишите функцию, которая принимает на вход список чисел и возвращает сумму квадратов всех четных чисел в списке.
 # spisok=[1,2,3,4,5,6,7]
@@ -84,4 +84,29 @@
 # в отделе и их описания. Затем функция предлагает пользователю удалить одного из сотрудников и выводит обновленный список сотрудников и их описания.
 
 
-
+# class sotrudnik:
+#     name = 'USERNAME'
+#     age = None
+#     dol = None
+#     def opisanie(self):
+#         print(f'Имя: {self.name}, возраст: {self.age}, должность: {self.dol}')
+# class department:
+#     department_name = None
+#     sotr_list = []
+#     def sotr_add(self, name_s):
+#         self.sotr_list.append(name_s)
+#     def sotr_del(self, name_s):
+#         self.sotr_list.remove(name_s)
+#
+# def create_sotr(dep_name):
+#     dep_object = department()
+#     dep_object.department_name = dep_name
+#     a = input('Хотите ли добавить сотрудника? ')
+#     if a: dep_object.sotr_add(input('Введите имя: '))
+#     print(dep_object.sotr_list)
+#     b = input('Хотите ли удалить сотрудников?')
+#     if b: dep_object.sotr_del(input('Введите имя: '))
+#     print(dep_object.sotr_list)
+#
+# create_sotr('Overone')
+#
